@@ -1,0 +1,140 @@
+.experience-info{
+    height: 100vh;
+    width: auto;
+    align-items: center;
+    padding: 10%;
+    color: aliceblue;
+    background-color: rgb(59, 65, 58);
+    
+}
+h2{
+    font-size: 50px;
+    margin-left: 70px;
+}
+.expierience1{
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    background: rgba(255, 255, 255, 0.1); 
+    box-shadow: 0px 0px 20px rgba(0, 0, 3);
+    border-radius: 20px;
+    
+}
+
+.experience-info li {
+    font-size: 35px;
+    margin-left: 100px;
+    margin-bottom: 20px; 
+    display: flex;
+    
+}
+
+.experience-info a {
+    font-size: 35px;
+    margin-left: auto;
+    margin-right: 200px;
+}
+.experience-info ul:hover{
+    transform: scale(1.033);
+    color: rgb(26, 101, 152);
+    transition: 1s;
+}
+
+.education-info{
+    height: 100vh;
+    width: auto;
+    align-items: center;
+    padding: 10%;
+    color: aliceblue;
+    background-color: rgb(59, 65, 58);
+    box-shadow: 0px 0px 20px rgba(0, 0, 3);
+    border-radius: 60px;
+    
+    
+}
+.school{
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    background: rgba(255, 255, 255, 0.1); 
+    box-shadow: 0px 0px 20px rgba(0, 0, 3);
+    border-radius: 50px;
+    
+    
+}
+.school li{
+    font-size: 35px;
+    margin-left: 90px;
+    margin-bottom: 20px; 
+    display: flex;  
+}
+.school a{
+    font-size: 35px;
+    margin-left: auto;
+    margin-right: 200px;
+}
+.education-info ul:hover{
+    transform: scale(1.1);
+    color: rgb(26, 101, 152);
+    transition: 0.5s;
+}
+.education-info .school::before{
+    content: '';
+    position:absolute;
+    width: 80%;
+    height: 27%;
+    background: rgb(59, 65, 58);
+    animation: showRight 0.5s ease forwards;
+    animation-delay: .4s;
+    box-shadow: 0px 0px 20px rgba(0, 0, 3);
+    border-radius: 50px;
+}
+
+.experience-info .expierience1::before{
+    content: '';
+    position:absolute;
+    width: 80%;
+    height: 52%;
+    background: rgb(59, 65, 58);
+    animation: showRight 0.5s ease forwards;
+    animation-delay: .4s;
+    box-shadow: 0px 0px 20px rgba(0, 0, 3);
+    border-radius: 20px;
+}
+.projects-info{
+    height: 100vh;
+    width: auto;
+    align-items: center;
+    padding: 10%;
+    color: aliceblue;
+    background-color: rgb(59, 65, 58);
+    
+}
+.projects-main{
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    background: rgba(255, 255, 255, 0.1); 
+    box-shadow: 0px 0px 20px rgba(0, 0, 3);
+    border-radius: 60px;
+
+}
+#naglowek1{
+    font-size: 70px;
+}
+#GitHub{
+    border-color: black;
+    border-width: 4px 4px 4px 4px;
+    border-style: solid;
+
+}
+.GitHub{
+    text-align: center;
+}
+.MyProjects{
+    margin-left: 60px; 
+    
+}
